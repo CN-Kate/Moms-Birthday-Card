@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom, #83e3fd, #ffeef3);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    color: #F6FFBE;
+    text-shadow: 2px 2px 4px grey;
+    margin-bottom: 20px;
+}
+
+.present {
+    height: 400px;
+    border-radius: 50%;
+    margin: 50px 0px 100px 0px;
+    background: radial-gradient(circle at center, #ffeef3);
+    box-shadow: 0px 0px 1px  lightgrey, 0px 0px 2px white, 0px 0px 4px #ffeef3, 0px 0px 6px #ffeef3, 0px 0px 10px #ffeef3, 0px 0px 12px #ffeef3, 0px 0px 14px #ffeef3, 0px 0px 16px #ffeef3, 0px 0px 18px #ffeef3, 0px 0px 22px #ffeef3, 0px 0px 30px #ffeef3, 0px 0px 40px white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: #83e3fd;
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px grey;
+    border-radius: 5px;
+    background: radial-gradient(circle at center, #F6FFBE);
+    box-shadow: 0px 0px 1px  lightgrey, 0px 0px 4px #F6FFBE, 0px 0px 6px #F6FFBE, 0px 0px 10px #F6FFBE, 0px 0px 12px #F6FFBE, 0px 0px 14px #F6FFBE, 0px 0px 16px #F6FFBE;
+}
+
+p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 35px;
+    color: #ffeef3;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
